@@ -101,7 +101,7 @@ public class Login extends javax.swing.JFrame {
         if(user.equalsIgnoreCase(user)&&(pass.equalsIgnoreCase(user)))
         {
             JOptionPane.showMessageDialog(null, "Selamat \n Anda Telah Login","pesan login", JOptionPane.INFORMATION_MESSAGE);
-            new Kesbug().show();
+            new Laporan().show();
         }
         else
         {

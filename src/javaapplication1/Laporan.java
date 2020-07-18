@@ -9,7 +9,7 @@ package javaapplication1;
  *
  * @author Dian Arifia
  */
-public class Kesbug extends javax.swing.JFrame {
+public class Laporan extends javax.swing.JFrame {
     String kuliah1;
     String kuliah2;
     String me1;
@@ -21,7 +21,7 @@ public class Kesbug extends javax.swing.JFrame {
     /**
      * Creates new form Kesbug
      */
-    public Kesbug() {
+    public Laporan() {
         initComponents();
     }
 
@@ -167,12 +167,12 @@ public class Kesbug extends javax.swing.JFrame {
         jTextField14.setText("jTextField5");
 
         npm.addAncestorListener(new javax.swing.event.AncestorListener() {
-            public void ancestorMoved(javax.swing.event.AncestorEvent evt) {
-            }
             public void ancestorAdded(javax.swing.event.AncestorEvent evt) {
                 npmAncestorAdded(evt);
             }
             public void ancestorRemoved(javax.swing.event.AncestorEvent evt) {
+            }
+            public void ancestorMoved(javax.swing.event.AncestorEvent evt) {
             }
         });
         npm.addActionListener(new java.awt.event.ActionListener() {
@@ -979,20 +979,21 @@ public class Kesbug extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Kesbug.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Laporan.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Kesbug.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Laporan.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Kesbug.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Laporan.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Kesbug.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Laporan.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new Kesbug().setVisible(true);
+                new Laporan().setVisible(true);
             }
         });
     }
